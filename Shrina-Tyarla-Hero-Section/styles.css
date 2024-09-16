@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    background: rgb(250, 250, 250);
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .navbar {
+    width: 80%;
+    margin: 20px auto; /* Center the navbar */
+    background: #0058b1;
+    padding: 1em 2em;
+    border-radius: 50px; /* Oval shape */
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .navbar .logo {
+    color: rgb(255, 196, 45);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .navbar .nav-links a {
+    color: rgb(244, 244, 244);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .nav-links a:hover {
+    color: rgb(255, 196, 45);
+    font-weight: bold;
+  }
+  
+  .hero {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 0; /* Offset for the fixed navbar */
+  }
+  
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .hero-text {
+    max-width: 80%;
+  }
+  
+  .hero-heading {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero-heading .highlight {
+    color: #0058b1; /* Highlight color */
+  }
+  
+  .hero-subheading {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    color: #666;
+  }
+  
+  .cta-buttons .btn {
+    margin-right: 10px;
+    padding: 1em 1.5em;
+    background: rgb(255, 196, 45);
+    color: #171717;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-buttons .btn:hover {
+    background: rgb(222, 169, 38);
+    font-weight: bold;
+  }
+  
+  .hero-image {
+    position: relative;
+  }
+  
+  .hero-image img {
+    border-radius: 10px;
+    max-width: 100%;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .image-text {
+    font-size: 1.2em;
+  }
+  
+  .image-subtext {
+    font-size: 0.9em;
+  }
+  
